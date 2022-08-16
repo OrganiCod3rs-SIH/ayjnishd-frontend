@@ -1,7 +1,7 @@
 > Recreation of [ADIP Cochlear Implant Site](http://adipcochlearimplant.in/) for SIH
 ___
 
-# Contents :
+# <span style="color: green"> Contents : </span>
 1. What is this site about?
 2. How to navigate around this site?
 3. What does the Tech-Stack comprise of?
