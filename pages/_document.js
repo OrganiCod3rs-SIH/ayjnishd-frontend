@@ -10,6 +10,32 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <script
+           type='text/javascript'
+           dangerouslySetInnerHTML={{ __html:`!(function () {
+            let e = document.createElement("script"),
+              t = document.head || document.getElementsByTagName("head")[0];
+            (e.src =
+              "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.0/lib/index.js"),
+              // Replace 1.x.x with the version that you want
+              (e.async = !0),
+              (e.onload = () => {
+                window.WebChat.default(
+                  {
+                    initPayload: "/greet",
+                    customData: { language: "en" },
+                    socketUrl: "https://rasa-chatbot-sih.herokuapp.com",
+                    // add other props here
+                    params: {storage: "session"},
+                    title: "ADIP Bot",
+                    subtitle: "Your friend for all your queries",
+                  },
+                  null
+                );
+              }),
+              t.insertBefore(e, t.firstChild);
+          })();`}}
+          />
           <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
             rel="stylesheet"

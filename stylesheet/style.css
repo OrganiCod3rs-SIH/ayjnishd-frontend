@@ -440,3 +440,8 @@ table {
   {
     font-size: 25px!important;
   }
+  /* CHatBOT */
+  .rw-conversation-container .rw-header {
+    background-color: #f1670c;
+  }
+  .rw-launcher{background-color: #f1670c;}
