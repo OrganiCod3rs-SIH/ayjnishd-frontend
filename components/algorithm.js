@@ -101,10 +101,10 @@ export default function App() {
               {questions[currentQuestion].questionText}
             </div>
           </div>
-          <div className="answer-section" key="">
-            {questions[currentQuestion].answerOptions.map((answerOption) => (
+          <div className="answer-section">
+            {questions[currentQuestion].answerOptions.map((answerOption, index) => (
               <button
-                key=""
+                key={index}
                 onClick={() => handleAnswerOptionClick(answerOption.score)}
               >
                 {answerOption.option}
