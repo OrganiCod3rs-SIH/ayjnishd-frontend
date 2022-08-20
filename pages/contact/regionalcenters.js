@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactUs from '../../components/contact/ContactUs'
 import RegionalCenters from '../../components/contact/RegionalCenters'
 import Navbar from "../../components/layout/Navbar"
 import SideBar from '../../components/layout/SideBar'
