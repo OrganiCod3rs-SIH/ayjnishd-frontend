@@ -454,3 +454,15 @@ table {
   .sidebar-card-inner{
     width: 280px;
   }
+
+  /* About Us(Soumwadeep) */
+  .aboutimg
+  {
+    text-align: end;
+    margin-left: 30px;
+  }
+  .aboutalink
+  {
+    text-decoration: none;
+    color: #C86D2F;
+  }

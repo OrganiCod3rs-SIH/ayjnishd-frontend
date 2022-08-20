@@ -8,7 +8,7 @@ import destination from '../../images/destination.svg'
 import checkup from '../../images/checkup.svg'
 import scheduleImg from '../../images/schedule.svg'
 import Image from "next/image";
-import Link from 'next/link'
+import Link from 'next/link';
 // import styles from "../styles/CiApplication.module.css"
 const CiApplication = () => {
   return (
