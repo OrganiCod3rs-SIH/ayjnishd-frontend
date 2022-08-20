@@ -20,35 +20,35 @@ export default function feedback() {
                             <h4 className="main-color">GIVE YOUR FEEDBACK HERE</h4>
                             <form>
                         <div className="form-group m-3">
-                            <label htmlhtmlFor="exampleInputName1 my-1">Name</label>
+                            <label htmlFor="exampleInputName1 my-1">Name</label>
                             <input type="name" className="form-control" id="exampleInputName1" placeholder=""/>
                         </div>
                         <div className="form-group m-3">
-                            <label htmlhtmlFor="exampleInputEmail1">Email address</label>
+                            <label htmlFor="exampleInputEmail1">Email address</label>
                             <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=""/>
                         </div>
                         <div className="form-group m-3">
-                            <label htmlhtmlFor="exampleInputNumber1 my-1">Contact Number</label>
+                            <label htmlFor="exampleInputNumber1 my-1">Contact Number</label>
                             <input type="number" className="form-control" id="exampleInputNumber1" placeholder=""/>
                         </div>
                         <div className="form-group m-3">
-                            <label htmlhtmlFor="exampleInputNumber2 my-1">Case Number of the Cochlear Implantee</label>
+                            <label htmlFor="exampleInputNumber2 my-1">Case Number of the Cochlear Implantee</label>
                             <input type="number" className="form-control" id="exampleInputNumber2" placeholder=""/>
                         </div>
                         <div className="form-group m-3">
-                            <label htmlhtmlFor="exampleInputName2 my-1">Name of the Cochlear Implantee</label>
+                            <label htmlFor="exampleInputName2 my-1">Name of the Cochlear Implantee</label>
                             <input type="name" className="form-control" id="exampleInputName2" placeholder=""/>
                         </div>
                         <div className="form-group m-3">
-                            <label htmlhtmlFor="exampleFormControlTextarea1">Feedback about the surgery</label>
+                            <label htmlFor="exampleFormControlTextarea1">Feedback about the surgery</label>
                             <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div className="form-group m-3">
-                            <label htmlhtmlFor="exampleFormControlTextarea2">Childs Improvement in Communication</label>
+                            <label htmlFor="exampleFormControlTextarea2">Childs Improvement in Communication</label>
                             <textarea className="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
                         </div>
                         <div className="form-group m-3">
-                            <label htmlhtmlFor="exampleFormControlTextarea2">Suggestion /Requirement</label>
+                            <label htmlFor="exampleFormControlTextarea2">Suggestion /Requirement</label>
                             <textarea className="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
                         </div>
                     </form>

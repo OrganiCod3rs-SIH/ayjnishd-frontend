@@ -7,38 +7,38 @@ export default function page2() {
             <h4 className="main-color">DETAILS OF THE CHILD</h4>
             <form>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputName1 my-1">Name</label>
+                    <label htmlhtmlFor="exampleInputName1 my-1">Name</label>
                     <input type="name" className="form-control" id="exampleInputName1" placeholder=""/>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputDate1 my-1">Date  of Birth</label>
+                    <label htmlhtmlFor="exampleInputDate1 my-1">Date  of Birth</label>
                     <input type="date" className="form-control" id="exampleInputDate1" placeholder=""/>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputNumber1 my-1">Age</label>
+                    <label htmlhtmlFor="exampleInputNumber1 my-1">Age</label>
                     <input type="number" className="form-control" id="exampleInputNumber1" placeholder=""/>
                 </div>
                 <div className="form-group gender m-3 d-flex">
                     <p>Gender : </p>
                     <div className="form-check form-check-inline mx-3">
                         <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
-                        <label className="form-check-label" htmlhtmlFor="inlineRadio1">Male</label>
+                        <label className="form-check-label" htmlFor="inlineRadio1">Male</label>
                     </div>
                     <div className="form-check form-check-inline mx-3">
                         <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
-                        <label className="form-check-label" htmlhtmlFor="inlineRadio2">Female</label>
+                        <label className="form-check-label" htmlFor="inlineRadio2">Female</label>
                     </div>
                     <div className="form-check form-check-inline mx-3">
                         <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" />
-                        <label className="form-check-label" htmlhtmlFor="inlineRadio3">Transgender</label>
+                        <label className="form-check-label" htmlFor="inlineRadio3">Transgender</label>
                     </div>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputState1 my-1">State</label>
+                    <label htmlhtmlFor="exampleInputState1 my-1">State</label>
                     <input type="name" className="form-control" id="exampleInputState1" placeholder=""/>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputEmail1">Email address</label>
+                    <label htmlhtmlFor="exampleInputEmail1">Email address</label>
                     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=""/>
                 </div>
                 <div className="form-group m-3">
@@ -67,15 +67,15 @@ export default function page2() {
                 <h6>FATHER`&apos;`S DETAILS ( Fill care giver’s details if applicable &amp;indicate in remark)</h6>
                 <form>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputName2 my-1">Name</label>
+                    <label htmlhtmlFor="exampleInputName2 my-1">Name</label>
                     <input type="name" className="form-control" id="exampleInputName2" placeholder=""/>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputNumber1 my-1">Age</label>
+                    <label htmlhtmlFor="exampleInputNumber1 my-1">Age</label>
                     <input type="number" className="form-control" id="exampleInputNumber1" placeholder=""/>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputReligion2 my-1">Religion</label>
+                    <label htmlhtmlFor="exampleInputReligion2 my-1">Religion</label>
                     <input type="name" className="form-control" id="exampleInputReligion2" placeholder=""/>
                 </div>
                 <div className="form-group m-3">
@@ -100,7 +100,7 @@ export default function page2() {
                     </select>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputProfession2 my-1">Profession</label>
+                    <label htmlhtmlFor="exampleInputProfession2 my-1">Profession</label>
                     <input type="name" className="form-control" id="exampleInputProfession2" placeholder=""/>
                 </div>
                 <div className="form-group m-3">
@@ -118,19 +118,19 @@ export default function page2() {
                     </label>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputNumber2 my-1">Residence Number</label>
+                    <label htmlhtmlFor="exampleInputNumber2 my-1">Residence Number</label>
                     <input type="name" className="form-control" id="exampleInputNumber2" placeholder="(xxx) xxx-xxxx"/>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputNumber3 my-1">Mobile Number</label>
+                    <label htmlhtmlFor="exampleInputNumber3 my-1">Mobile Number</label>
                     <input type="phone" className="form-control" id="exampleInputNumber3" placeholder="xxx-xxx-xxxx"/>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputNumber4 my-1">Annual Income</label>
+                    <label htmlhtmlFor="exampleInputNumber4 my-1">Annual Income</label>
                     <input type="number" className="form-control" id="exampleInputNumber4" placeholder=""/>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputNumber5 my-1">Aadhar Card Number</label>
+                    <label htmlhtmlFor="exampleInputNumber5 my-1">Aadhar Card Number</label>
                     <input type="number" className="form-control" id="exampleInputNumber5" placeholder=""/>
                 </div>
             </form>
@@ -139,15 +139,15 @@ export default function page2() {
                 <h6>MOTHER`&apos;`S DETAILS ( Fill care giver`&apos;`s details if applicable &amp;indicate in remark)</h6>
                 <form>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputName3 my-1">Name</label>
+                    <label htmlhtmlFor="exampleInputName3 my-1">Name</label>
                     <input type="name" className="form-control" id="exampleInputName3" placeholder=""/>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputNumber6 my-1">Age</label>
+                    <label htmlhtmlFor="exampleInputNumber6 my-1">Age</label>
                     <input type="number" className="form-control" id="exampleInputNumber6" placeholder=""/>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputReligion3 my-1">Religion</label>
+                    <label htmlhtmlFor="exampleInputReligion3 my-1">Religion</label>
                     <input type="name" className="form-control" id="exampleInputReligion3" placeholder=""/>
                 </div>
                 <div className="form-group m-3">
@@ -172,7 +172,7 @@ export default function page2() {
                     </select>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputProfession3 my-1">Profession</label>
+                    <label htmlhtmlFor="exampleInputProfession3 my-1">Profession</label>
                     <input type="name" className="form-control" id="exampleInputProfession3" placeholder=""/>
                 </div>
                 <div className="form-group m-3">
@@ -190,19 +190,19 @@ export default function page2() {
                     </label>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputNumber7 my-1">Residence Number</label>
+                    <label htmlhtmlFor="exampleInputNumber7 my-1">Residence Number</label>
                     <input type="name" className="form-control" id="exampleInputNumber7" placeholder="(xxx) xxx-xxxx"/>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputNumber8 my-1">Mobile Number</label>
+                    <label htmlhtmlFor="exampleInputNumber8 my-1">Mobile Number</label>
                     <input type="phone" className="form-control" id="exampleInputNumber8" placeholder="xxx-xxx-xxxx"/>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputNumber9 my-1">Annual Income</label>
+                    <label htmlhtmlFor="exampleInputNumber9 my-1">Annual Income</label>
                     <input type="number" className="form-control" id="exampleInputNumber9" placeholder=""/>
                 </div>
                 <div className="form-group m-3">
-                    <label htmlhtmlhtmlFor="exampleInputNumber10 my-1">Aadhar Card Number</label>
+                    <label htmlhtmlFor="exampleInputNumber10 my-1">Aadhar Card Number</label>
                     <input type="number" className="form-control" id="exampleInputNumber10" placeholder=""/>
                 </div>
             </form>
@@ -215,21 +215,21 @@ export default function page2() {
                     <p>Family Set Up : </p>
                     <div className="form-check form-check-inline mx-3">
                         <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
-                        <label className="form-check-label" htmlhtmlFor="inlineRadio1">Joint</label>
+                        <label className="form-check-label" htmlFor="inlineRadio1">Joint</label>
                     </div>
                     <div className="form-check form-check-inline mx-3">
                         <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
-                        <label className="form-check-label" htmlhtmlFor="inlineRadio2">Nuclear</label>
+                        <label className="form-check-label" htmlFor="inlineRadio2">Nuclear</label>
                     </div>                    
                 </div>
                 <div className="siblings m-3 d-flex">
                         <p>Siblings :</p>
                         <div className="form-group m-3 ">
-                            <label htmlhtmlhtmlFor="exampleInputNumber10 my-1">Brothers</label>
+                            <label htmlhtmlFor="exampleInputNumber10 my-1">Brothers</label>
                             <input type="number" className="form-control" id="exampleInputNumber10" placeholder=""/>
                         </div>
                         <div className="form-group m-3">
-                            <label htmlhtmlhtmlFor="exampleInputNumber10 my-1">Sisters</label>
+                            <label htmlhtmlFor="exampleInputNumber10 my-1">Sisters</label>
                             <input type="number" className="form-control" id="exampleInputNumber10" placeholder=""/>
                         </div>
                 </div>
@@ -237,11 +237,11 @@ export default function page2() {
                     <p>Any person with disability in the family? YES/NO If yes, give details : </p>
                     <div className="form-check form-check-inline mx-3">
                         <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
-                        <label className="form-check-label" htmlhtmlFor="inlineRadio1">Yes</label>
+                        <label className="form-check-label" htmlFor="inlineRadio1">Yes</label>
                     </div>
                     <div className="form-check form-check-inline mx-3">
                         <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
-                        <label className="form-check-label" htmlhtmlFor="inlineRadio2">No</label>
+                        <label className="form-check-label" htmlFor="inlineRadio2">No</label>
                     </div>  
                                       
                 </div>
@@ -250,18 +250,18 @@ export default function page2() {
                     <p>Any person in the family with cochlear implant? YES/NO If yes, give detail : </p>
                     <div className="form-check form-check-inline mx-3">
                         <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
-                        <label className="form-check-label" htmlhtmlFor="inlineRadio1">Yes</label>
+                        <label className="form-check-label" htmlFor="inlineRadio1">Yes</label>
                     </div>
                     <div className="form-check form-check-inline mx-3">
                         <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
-                        <label className="form-check-label" htmlhtmlFor="inlineRadio2">No</label>
+                        <label className="form-check-label" htmlFor="inlineRadio2">No</label>
                     </div>  
                                       
                 </div>
                 <textarea className="form-control mx-3 mb-3" id="exampleFormControlTextarea3" rows="3"></textarea>
             </form>
         </div>
-        <Link href="/ci-forms/page3">
+        <Link href="/ci-forms/page2">
             <button type="button" className="btn-sih btn text-center m-3 right">Proceed to Page3</button>
         </Link>
         <br />
