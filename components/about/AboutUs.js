@@ -10,32 +10,31 @@ export default function AboutUs() {
       <div className="container">
         <div className="row">
           <h3>ABOUT US</h3>
-          <Link href="http://adipcochlearimplant.in/about.html">
+          <Link href="https://www.ayjnihh.nic.in/" target="_blank">
             <a className="aboutalink">
               <TbBrandTelegram />
               &nbsp;Visit Our Official Website
             </a>
           </Link>
-          <div className="col-8">
+          <div className="col-md-8 col-12">
             <p>
               Ali Yavar Jung National Institute for the Hearing Handicapped
               (AYJNIHH) was established on 9th August 1983. It is an autonomous
               organisation under the Ministry of Social Justice and Empowerment,
               Government of India, New Delhi. The Institute is located at Bandra
               (West), Mumbai – 400 050.
-            </p>
-          </div>
-          <div className="col-4">
-            <Image src={aboutimg1} width="300px" height="200px" alt="aboutus" />
-          </div>
-        </div>
-        <p>
-          Regional Centres of the Institute have been established at Kolkata
+              
+              Regional Centres of the Institute have been established at Kolkata
           (1984), New Delhi (1986), Secundarabad (1986) and Bhubaneshwar (1986-
           in association with Government of Orissa). These are centres aimed at
           meeting the local and regional needs in terms of manpower development
           and services.
-        </p>
+            </p>
+          </div>
+          <div className="col-md-4 col-12 d-column-center">
+            <Image src={aboutimg1} width="300px" height="200px" alt="aboutus" />
+          </div>
+        </div>
         <p>
           The District Disability Rehabilitation Centre (DDRCs) under Gramin
           Punarvasan Yojana (GPY) a programme of the Ministry of Social Justice
@@ -52,7 +51,7 @@ export default function AboutUs() {
         </p>
         <p>
           Composite Regional Center (CRC), Bhopal is a service model initiated
-          by the Ministry of Social Justice & Empowerment, Govt. of India,
+          by the Ministry of Social Justice &amp; Empowerment, Govt. of India,
           established on 14th August, 2000. The Center is functioning under the
           administrative control of AYJNIHH since February, 2006. An one more
           CRC at Ahmedabad, Gujarat was established on 16th Aug, 2011 and this
@@ -61,7 +60,7 @@ export default function AboutUs() {
         <h1>OBJECTIVES OF THE INSTITUTE</h1>
         <br />
         <div className="row">
-          <div className="col-8">
+          <div className="col-md-8 col-12">
             <p>
               <b>Manpower Development:</b>
               To deal with the various aspects of rehabilitation of the Hearing
@@ -73,7 +72,7 @@ export default function AboutUs() {
               out.
             </p>
           </div>
-          <div className="col-4">
+          <div className="col-md-4 col-12 d-column-center">
             <Image
               className="aboutimg"
               src={aboutimg2}

@@ -63,7 +63,7 @@ class MyDocument extends Document {
 
 export default MyDocument;
 
-//style for chat bat
+// style for chat bat
 //    .rw-conversation-container .rw-header {
 //        background-color: #f1670c;
 //      }
