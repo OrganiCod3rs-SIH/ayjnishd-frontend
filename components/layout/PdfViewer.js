@@ -20,7 +20,7 @@ const PdfViewer = () => {
               id=1GruvTcSf2i8uCKsipmF-W36gP_gDhyNI
           */}
           <iframe
-            src="https://drive.google.com/embeddedfolderview?id=1GruvTcSf2i8uCKsipmF-W36gP_gDhyNI#grid"
+            src="https://drive.google.com/embeddedfolderview?id=12MU7BEyd3M2xkxrFrbDUqdpDtl9GkCek#grid"
             className="pdf_iframe"
           ></iframe>
         </div>
@@ -30,3 +30,4 @@ const PdfViewer = () => {
 };
 
 export default PdfViewer;
+// https://drive.google.com/drive/folders/12MU7BEyd3M2xkxrFrbDUqdpDtl9GkCek?usp=sharing

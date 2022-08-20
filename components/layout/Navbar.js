@@ -3,6 +3,8 @@ import Image from "next/image";
 import logo from "../../images/logo-sih.png";
 import { AiOutlineSound } from "react-icons/ai";
 import { HiMenu } from "react-icons/hi";
+import { BsSearch } from "react-icons/bs";
+
 import Link from 'next/link'
 
 export default function Navbar(props) {
@@ -262,6 +264,17 @@ export default function Navbar(props) {
               </li>
               <div className="translate" id="google_translate_element" ></div>
               {/* google div ends here */}
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <BsSearch/>
+                </a>
+              </li>
               <li className="nav-item">
                 <a
                   className="nav-link"
