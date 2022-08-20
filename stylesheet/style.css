@@ -3,6 +3,8 @@
 body{
     position: relative;
     top:0;
+    font-family: 'Poppins';
+
 }
 /* Primary Css */
 :root {
@@ -480,4 +482,77 @@ table {
 }
 .rw-conversation-container .rw-send .rw-send-icon-ready{
     fill: var(--main) !important;
+}
+/* RegionalCenter */
+.regionH{
+    font-size: 2rem;
+}
+.cardRegional{
+    border-radius: 15px;
+    background-color: #ececec;
+}
+.cardDes{
+    color: #6E798C;
+    font-size: 1.2rem;
+    justify-content: end;
+    text-align: end;
+
+}
+.cardDesT{
+    color: #515355;
+    font-size: 1.2rem;
+    justify-content: end;
+    text-align: end;
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+
+}
+.card-mail{
+    background-color: #FF9B56;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #FF9B56;
+}
+.btn-mail{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-mail:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/* contactUS */
+.imgDivC{
+    max-width: 800px;
+    width: "70%";
+}
+.textDivC{
+    width: "50%";
+    display: flex;
+    flex-direction: column;
+}
+.btn-mailC{
+    font-size: 1.5rem;
+    background-color: #D9D9D9;
+    color: #000;
+    border-radius: 15px;
+    border: 1px solid #D9D9D9;
+}
+.btn-mailC{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.btn-mailC:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.cardDesC{
+    color: #515355;
+    font-size: 1.2rem;
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+}
+.cardDesCd{
+    color: #515355;
+    font-size: 1rem;
 }
