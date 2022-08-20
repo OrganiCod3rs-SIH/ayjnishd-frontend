@@ -8,6 +8,7 @@ import Info from "../components/layout/Info";
 import News from "../components/layout/News";
 import SideBar from "../components/layout/SideBar";
 import Footer from "../components/layout/Footer";
+import App from '../components/algorithm'
 
 //KPI from restAPI
 const api = 'https://ayjnishd-backend.herokuapp.com/kpi';
@@ -24,14 +25,15 @@ export async function getServerSideProps(){
 export default function Home({data}) {
   return (
     <div>
-      <Navbar active="Home"/>
+      <App/>
+      {/* <Navbar active="Home"/>
       <Hero/>
       <Kpi data={data}/>
       <Info/>
       <News/>
       <CiApplication/>
       <Faq/>
-      <Footer/>
+      <Footer/> */}
     </div>
   )
 } 
