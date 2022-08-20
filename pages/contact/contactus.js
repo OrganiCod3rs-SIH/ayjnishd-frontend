@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactUs from '../../components/contact/ContactUs'
 import Navbar from "../../components/layout/Navbar"
 import SideBar from '../../components/layout/SideBar'
 import Sidebar_Btn from '../../components/layout/Sidebar-Btn'
@@ -13,7 +14,7 @@ export default function contactus() {
               <div className="sidebar"><SideBar heading1="Contact" heading2="Contact Us" arr={arr} alinks={arr_links}/></div>
               <div className="w-100">
                 <Sidebar_Btn/>
-                Contact Us
+                <ContactUs/>
               </div>
           </div> 
       </div>
