@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
@@ -52,7 +51,6 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
           />
-          <script src="js/scripts.js"></script>
         </Head>
         <body>
           <Main />
@@ -64,3 +62,11 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
+
+//style for chat bat
+//    .rw-conversation-container .rw-header {
+//        background-color: #f1670c;
+//      }
+//    . rw-launcher{
+//          background-color: #f1670c;
+//        }

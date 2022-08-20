@@ -9,10 +9,10 @@ const SideBar = (props) => {
       <div className="collapse collapse-horizontal show" id="collapseExample">
         <div className="card sidebar-card card-body">
           <div className="d-flex sidebar-card-inner flex-column flex-shrink-0 p-3 text-dark">
-            <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <Link href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
               
               <span className="fs-4 main-color m-3 ">{props.heading1}</span>
-            </a>
+            </Link>
             
             <ul className="nav nav-pills flex-column mb-auto">
               {props.arr.map((item,index)=>(
