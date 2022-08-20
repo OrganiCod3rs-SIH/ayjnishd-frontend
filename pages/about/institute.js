@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutUs from '../../components/about/AboutUs'
+import CochlearImplant from '../../components/about/CochlearImplant'
 import Navbar from "../../components/layout/Navbar"
 import SideBar from '../../components/layout/SideBar'
 import Sidebar_Btn from '../../components/layout/Sidebar-Btn'
@@ -17,6 +18,7 @@ export default function institute() {
                 <Sidebar_Btn/>
                 <AboutUs/>
               </div>
+              {/* <CochlearImplant/> */}
           </div> 
       </div>
     )
