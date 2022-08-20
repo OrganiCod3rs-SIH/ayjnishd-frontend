@@ -192,7 +192,7 @@ export default function Navbar(props) {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link href="/contact">
+                    <Link href="/contact/contactus">
                     <a className="dropdown-item" href="#">
                       Contact Us
                     </a>

@@ -4,9 +4,9 @@ import Navbar from "../../components/layout/Navbar"
 import SideBar from '../../components/layout/SideBar'
 import Sidebar_Btn from '../../components/layout/Sidebar-Btn'
 
-export default function index() {
+export default function contactus() {
   const arr=["Contact Us","Feedback Form","Regional Centers"]
-  const arr_links=["contact","feedback","regionalcenters"]
+  const arr_links=["contactus","feedback","regionalcenters"]
   return (
     <div>
           <Navbar active="Contact"/>

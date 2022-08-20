@@ -6,7 +6,7 @@ import Sidebar_Btn from '../../components/layout/Sidebar-Btn'
 
 export default function regional_centers() {
   const arr=["Contact Us","Feedback Form","Regional Centers"]
-  const arr_links=["","feedback","regionalcenters"]
+  const arr_links=["contactus","feedback","regionalcenters"]
   return (
     <div>
           <Navbar active="Contact"/>

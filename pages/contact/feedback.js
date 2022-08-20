@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 export default function feedback() {
     const arr = ["Contact Us", "Feedback", "Regional Centers"]
-    const arr_links = ["", "feedback", "regionalcenters"]
+    const arr_links = ["contactus", "feedback", "regionalcenters"]
     return (
         <div>
             <Navbar active="Contact" />
