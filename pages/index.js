@@ -24,7 +24,7 @@ export async function getServerSideProps(){
 export default function Home({data}) {
   return (
     <div>
-      <Navbar/>
+      <Navbar active="Home"/>
       <Hero/>
       <Kpi data={data}/>
       <Info/>

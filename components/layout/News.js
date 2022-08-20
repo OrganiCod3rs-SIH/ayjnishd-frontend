@@ -10,10 +10,10 @@ export default function News() {
     .then((res)=>{
       return res.json();
     }).then((response)=>{
-      console.log(response)
-      console.log(response.articles)
+      // console.log(response)
+      // console.log(response.articles)
       const x = response.articles;
-      console.log(x)
+      // console.log(x)
       setData(x)
     })
   },[])
