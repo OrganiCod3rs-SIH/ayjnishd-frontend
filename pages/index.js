@@ -11,16 +11,31 @@ import Footer from "../components/layout/Footer";
 import App from '../components/algorithm'
 
 //KPI from restAPI
-const api = 'https://ayjnishd-backend.herokuapp.com/kpi';
-export async function getServerSideProps(){
-   const res = await fetch(api);
-    const data = await res.json();
-    return{
-        props:{
-            data
-        }
-    }
-}
+// const api = 'https://ayjnishd-backend.herokuapp.com/kpi';
+// export async function getServerSideProps(){
+//    const res = await fetch(api);
+//     const data = await res.json();
+//     return{
+//         props:{
+//             data
+//         }
+//     }
+// }
+
+// for the time being 
+  export async function getServerSideProps(){
+      const data=[{
+        professionals:100,
+        registered:200,
+        surgeries:300,
+        hospitals:400
+      }]
+      return{
+          props:{
+              data
+          }
+      }
+  }
 
 export default function Home({data}) {
   return (
