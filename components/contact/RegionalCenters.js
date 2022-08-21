@@ -42,7 +42,7 @@ export default function RegionalCenters() {
         </div>
         {
             regionalData.map((item,index)=>(
-            <div index = {item.id} className="d-flex justify-content-between mx-5 my-3 cardRegional ">
+            <div key = {index} className="d-flex justify-content-between mx-5 my-3 cardRegional ">
                 <div className="flex-shrink-0">
                             <Image src={img1} alt="..." layout='' width={450} height={280}/>
                     </div>

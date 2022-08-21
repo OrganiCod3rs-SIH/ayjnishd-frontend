@@ -84,7 +84,7 @@ export default function contactus() {
           <div className="container">
             <div className="row row-cols-2">
               {regionalData.map((item, index) => (
-                <div index={item.id} className="col">
+                <div key={index} className="col">
                   <div className="card mb-3">
                     <div className="row g-0">
                       <div className="col-md-4">
