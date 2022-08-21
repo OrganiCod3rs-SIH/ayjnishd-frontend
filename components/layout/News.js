@@ -33,11 +33,11 @@ export default function News() {
   const news = data.slice(0, 5).map((n, i) => {
     return (
       <div key={i}>
-        <img src={n.urlToImage} alt="" width={600} height={300} />
-        <p>{n.title}</p>
-        <a href={n.url} target="_blank" rel="noopener noreferrer">
-          <button className="btn btn-primary">Read More...</button>
+        <a href={n.url}>
+          <img  src={n.urlToImage} alt="" width={600} height={300} />
         </a>
+        <p className="text-center mt-2">{n.title}</p>
+        <p className="text-center">{n.description}</p>
       </div>
     );
   });
