@@ -37,7 +37,7 @@ export default function News() {
           <img  src={n.urlToImage} alt="" width={600} height={300} />
         </a>
         <p className="text-center mt-2">{n.title}</p>
-        <p className="text-center">{n.description}</p>
+        <p className="text-center ">{n.description}</p>
       </div>
     );
   });
@@ -45,8 +45,7 @@ export default function News() {
   return (
     <div>
       <h2 className="text-center p-5">LATEST NEWS</h2>
-      <Slider {...settings}>{news}</Slider>
-      <h2 className="text-center p-5">READ MORE</h2>
+      <Slider className="mb-5" {...settings}>{news}</Slider>
     </div>
   );
 }
