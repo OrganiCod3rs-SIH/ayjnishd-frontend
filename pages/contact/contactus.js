@@ -1,5 +1,4 @@
 import React from "react";
-import ContactUs from "../../components/contact/ContactUs";
 import Navbar from "../../components/layout/Navbar";
 import SideBar from "../../components/layout/SideBar";
 import Sidebar_Btn from "../../components/layout/Sidebar-Btn";
