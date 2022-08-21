@@ -11,8 +11,8 @@ const ContactUs = () => {
       <div className="container">
         <div className="row">
           <h3>ABOUT US</h3>
-          <Link href="https://www.ayjnihh.nic.in/" target="_blank">
-            <a className="aboutalink">
+          <Link href="https://www.ayjnihh.nic.in/">
+            <a className="aboutalink" target="_blank">
               <TbBrandTelegram />
               &nbsp;Visit Our Official Website
             </a>
@@ -116,14 +116,14 @@ const ContactUs = () => {
           <b>Related Assosciations:</b>
         </p>
         <Link href="/">
-          <a className="aboutalink">
+          <a className="aboutalink" target="_blank">
             <TbBrandTelegram />
             &nbsp;Memorandum of Association
           </a>
         </Link>
         <br />
         <Link href="/">
-          <a className="aboutalink">
+          <a className="aboutalink" target="_blank">
             <TbBrandTelegram />
             &nbsp;By-Laws of Institute
           </a>
