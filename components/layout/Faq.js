@@ -113,7 +113,7 @@ const Faq = () => {
                   aria-selected="true"
                 >
                   <FiSun />
-                  <p>Scheme</p>
+                  &nbsp;&nbsp;Scheme
                 </button>
               </li>
 
@@ -129,7 +129,7 @@ const Faq = () => {
                   aria-selected="false"
                 >
                   <BsMoon />
-                  Institute
+                  &nbsp;&nbsp;Institute
                 </button>
               </li>
               <li className="nav-item" role="presentation">
@@ -144,7 +144,7 @@ const Faq = () => {
                   aria-selected="false"
                 >
                   <FiBox />
-                  Product
+                  &nbsp;&nbsp;Product
                 </button>
               </li>
               <li className="nav-item" role="presentation">
@@ -159,7 +159,7 @@ const Faq = () => {
                   aria-selected="false"
                 >
                   <AiOutlineQuestion />
-                  Eligibility
+                  &nbsp;&nbsp;Eligibility
                 </button>
               </li>
             </ul>
