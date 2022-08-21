@@ -113,7 +113,7 @@ const Faq = () => {
                   aria-selected="true"
                 >
                   <FiSun />
-                  Scheme
+                  <p>Scheme</p>
                 </button>
               </li>
 

@@ -22,11 +22,14 @@ const CiApplication = () => {
                 <h3 className="stepbut">Step-1</h3>
               </center>
               <div className="card">
+                <div className="card-image">
                 <Image
                   className="card-img-top"
                   src={app}
                   alt="Card image cap"
+                  height="500px"
                 />
+                </div>
                 <div className="card-body">
                   <br />
                   <h5 className="card-title">Start Your Application</h5>
@@ -37,7 +40,7 @@ const CiApplication = () => {
                   </p>
                   <div className="fixapplybut">
                     <Link href="/ci-forms" className="applybut">
-                      <button className="btn btn-sih">Apply Here ...</button>
+                      <button className="btn btn-sih-other">Apply Here ...</button>
                     </Link>
                   </div>
                 </div>
@@ -48,10 +51,12 @@ const CiApplication = () => {
                 <h3 className="stepbut">Step-2</h3>
               </center>
               <div className="card">
+
                 <Image
                   className="card-img-top"
                   src={list}
                   alt="Card image cap"
+                  height="500px"
                 />
                 <div className="card-body">
                   <br />
@@ -63,7 +68,7 @@ const CiApplication = () => {
                   </p>
                   <div className="fixapplybut">
                     <Link href="/ci-forms" className="applybut">
-                      <button className="btn btn-sih">Check Here ...</button>
+                      <button className="btn btn-sih-other">Check Here ...</button>
                     </Link>
                   </div>
                 </div>
@@ -79,6 +84,7 @@ const CiApplication = () => {
                   className="card-img-top"
                   src={time}
                   alt="Card image cap"
+                  height="500px"
                 />
                 <div className="card-body">
                   <br />
@@ -90,7 +96,7 @@ const CiApplication = () => {
                   </p>
                   <div className="fixapplybut">
                     <Link href="/ci-forms" className="applybut">
-                      <button className="btn btn-sih">Check Here ...</button>
+                      <button className="btn btn-sih-other">Check Here ...</button>
                     </Link>
                   </div>
                 </div>
@@ -105,6 +111,7 @@ const CiApplication = () => {
                   className="card-img-top"
                   src={checkup}
                   alt="Card image cap"
+                  height="500px"
                 />
                 <div className="card-body">
                   <br />
@@ -118,7 +125,7 @@ const CiApplication = () => {
                   </p>
                   <div className="fixapplybut">
                     <Link href="/ci-forms" className="applybut">
-                      <button className="btn btn-sih">Check Here ...</button>
+                      <button className="btn btn-sih-other">Check Here ...</button>
                     </Link>
                   </div>
                 </div>
