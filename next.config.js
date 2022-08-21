@@ -2,5 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  // images: {
+  //   domains: ["images.livemint.com"]
+  // }
+  experimental: { images: { allowFutureImage: true } }
 }
 module.exports = nextConfig
