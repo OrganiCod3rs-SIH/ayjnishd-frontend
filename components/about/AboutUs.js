@@ -4,7 +4,8 @@ import { TbBrandTelegram } from "react-icons/tb";
 import Link from "next/link";
 import aboutimg1 from "../../images/about.png";
 import aboutimg2 from "../../images/about2.jpg";
-export default function AboutUs() {
+
+const ContactUs = () => {
   return (
     <>
       <div className="container">
@@ -131,3 +132,4 @@ export default function AboutUs() {
     </>
   );
 }
+export default ContactUs;
