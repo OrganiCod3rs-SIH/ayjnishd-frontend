@@ -20,6 +20,12 @@ body{
     color: #FFFFFF;
     border-radius: 10px;
 }
+.btn-sih-other{
+    background-color: #FFB27D;
+    color: black;
+    border-radius: 4px;
+    font-weight: 500;
+}
 .btn-sih:hover{
     background-color: #fc8931;
     color: #FFFFFF;
@@ -184,6 +190,7 @@ model-viewer{width: 400px; height: 500px; margin: 0 auto;}
     border-radius: 10px 10px 0 0;
     box-shadow: none;
     padding: 0;
+    height: 10vh;
 }
 .card-title{
     font-size: 3vh;

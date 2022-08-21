@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col sm">
-              <h5 className="footerparahead">
+              <h5 className="footerparahead text-white">
                 <b>More To Explore</b>
               </h5>
               <ul className="nav flex-column">
@@ -43,14 +43,14 @@ const Footer = () => {
               </ul>
             </div>
             <div className="col sm">
-              <h5 className="footerparahead">
+              <h5 className="footerparahead text-white">
                 <b>Quick Links</b>
               </h5>
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
                   <Link href="/">
                     <p className="nav-link p-0 text-muted">
-                      Terms & Conditions
+                      Terms &amp; Conditions
                     </p>
                   </Link>
                 </li>
@@ -76,7 +76,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="col sm">
-            <h5 className="footerparahead">
+            <h5 className="footerparahead text-white">
                 <b>You Are Visitor Number<br/>5462132</b>
               </h5>
               <ul className="nav flex-column">

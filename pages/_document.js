@@ -9,7 +9,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <script
+          {/* <script
            type='text/javascript'
            dangerouslySetInnerHTML={{ __html:`!(function () {
             let e = document.createElement("script"),
@@ -34,7 +34,7 @@ class MyDocument extends Document {
               }),
               t.insertBefore(e, t.firstChild);
           })();`}}
-          />
+          /> */}
           <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
             rel="stylesheet"

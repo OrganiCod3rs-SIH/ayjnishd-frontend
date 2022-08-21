@@ -7,7 +7,7 @@ export default function index() {
     <div>
         <Navbar/>
         <div className="row">
-            <div className="col-2"><SideBar/></div>
+            {/* <div className="col-2"><SideBar/></div> */}
             <div className="col-10"><Page3/></div>
         </div> 
     </div>

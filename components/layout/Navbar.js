@@ -262,9 +262,9 @@ export default function Navbar(props) {
                   </li>
                 </ul>
               </li>
-              <div className="translate" id="google_translate_element" ></div>
+              {/* <div className="translate" id="google_translate_element" ></div> */}
               {/* google div ends here */}
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a
                   className="nav-link"
                   href="#"
@@ -285,7 +285,7 @@ export default function Navbar(props) {
                 >
                   <AiOutlineSound />
                 </a>
-              </li>
+              </li> */}
             </ul>
             {/* <form className="d-flex" role="search">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>

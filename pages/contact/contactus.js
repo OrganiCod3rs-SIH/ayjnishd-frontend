@@ -1,5 +1,4 @@
 import React from "react";
-import ContactUs from "../../components/contact/ContactUs";
 import Navbar from "../../components/layout/Navbar";
 import SideBar from "../../components/layout/SideBar";
 import Sidebar_Btn from "../../components/layout/Sidebar-Btn";
@@ -84,7 +83,7 @@ export default function contactus() {
           <div className="container">
             <div className="row row-cols-2">
               {regionalData.map((item, index) => (
-                <div index={item.id} className="col">
+                <div key={index} className="col">
                   <div className="card mb-3">
                     <div className="row g-0">
                       <div className="col-md-4">
