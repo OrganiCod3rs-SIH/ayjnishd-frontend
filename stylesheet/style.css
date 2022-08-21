@@ -483,6 +483,17 @@ table {
 .rw-conversation-container .rw-send .rw-send-icon-ready{
     fill: var(--main) !important;
 }
+/* PDF  */
+.pdf-renderer{
+    margin:auto;
+    width: 60%;
+}
+@media(max-width:550px){
+    .pdf-renderer{
+        margin:auto;
+        width: 90%;
+    }
+}
 /* RegionalCenter */
 .regionH{
     font-size: 2rem;
@@ -556,3 +567,4 @@ table {
     color: #515355;
     font-size: 1rem;
 }
+
