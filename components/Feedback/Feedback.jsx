@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { Button, notification } from "antd";
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
 export default function Feedback() {
   const [formData, setFormData] = useState({
@@ -25,7 +26,7 @@ export default function Feedback() {
     e.preventDefault();
     setLoading(true);
     axios
-      .post("https://ayjnishd-backend.herokuapp.com/feedback", {
+      .post(`${BACKEND_URL}/feedback`, {
         formData,
       })
       .then(() => {

@@ -10,45 +10,47 @@ import SideBar from "../components/layout/SideBar";
 import Footer from "../components/layout/Footer";
 import App from '../components/algorithm'
 
-//KPI from restAPI
-// const api = 'https://ayjnishd-backend.herokuapp.com/kpi';
-// export async function getServerSideProps(){
-//    const res = await fetch(api);
-//     const data = await res.json();
-//     return{
-//         props:{
-//             data
-//         }
-//     }
-// }
+// KPI from restAPI
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
+console.log(BACKEND_URL);
+const api = `${BACKEND_URL}/kpi`;
+export async function getServerSideProps() {
+  const res = await fetch(api);
+  const data = await res.json();
+  return {
+    props: {
+      data
+    }
+  }
+}
 
 // for the time being 
-  export async function getServerSideProps(){
-      const data=[{
-        professionals:100,
-        registered:200,
-        surgeries:300,
-        hospitals:400
-      }]
-      return{
-          props:{
-              data
-          }
-      }
-  }
+// export async function getServerSideProps() {
+//   const data = [{
+//     professionals: 100,
+//     registered: 200,
+//     surgeries: 300,
+//     hospitals: 400
+//   }]
+//   return {
+//     props: {
+//       data
+//     }
+//   }
+// }
 
-export default function Home({data}) {
+export default function Home({ data }) {
   return (
     <div>
       {/* <App/> */}
-      <Navbar active="Home"/>
-      <Hero/>
-      <Kpi data={data}/>
-      <Info/>
-      <News/>
-      <CiApplication/>
-      <Faq/>
-      <Footer/>
+      <Navbar active="Home" />
+      <Hero />
+      <Kpi data={data} />
+      <Info />
+      <News />
+      <CiApplication />
+      <Faq />
+      <Footer />
     </div>
   )
 } 
