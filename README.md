@@ -76,6 +76,14 @@ https://user-images.githubusercontent.com/47386839/186881091-aed638af-f033-403a-
  
  7. Admin panel: There's an additional site to manage all the user interaction. An admin can manage and view all the applications and feedbacks from the user and act on them accordingly.
 
+ 9. Check-hearing: Designed a series of questions that estimate the degree of hearing loss in an individual. _It is to be noted that the results for this test are not supposed to be taken 100% accurate._
+
+ 10. PDF Rendering: Dynamic PDF rendering so that if a new PDF is added by the government, it is automatically rendered without going through the hassles of integrating it again.
+
+ 11. NEWS API: An API designed to flash NEWS related to the ADIP scheme on the website.
+
+ 12. Floating contact button: A button to directly call the concerened representative so that a user who's having difficulty navigating through the site for any reason can directly get in touch with the representative. There's also support for mail and chatbot in the contact icon.
+
 ## How does this site act as an improvement to the previous one?
 There are two crucial things we kept in mind while planning all of the former:
 How to make the site much more accessible to the users?
