@@ -1,6 +1,8 @@
 > Recreation of [ADIP Cochlear Implant Site](http://adipcochlearimplant.in/) for SIH
 ___
 
+Deployed Link : [Click here](https://ayjnishd-qa.netlify.app/)
+
 # Contents : 
 1. [What is this site about?](https://github.com/OrganiCod3rs-SIH/ayjnishd-frontend/edit/main/README.md#what-is-this-site-about)
 2. [How to navigate around this site?](https://github.com/OrganiCod3rs-SIH/ayjnishd-frontend/edit/main/README.md#how-to-navigate-around-this-site)
