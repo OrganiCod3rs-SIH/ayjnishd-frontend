@@ -74,13 +74,15 @@ https://user-images.githubusercontent.com/47386839/186881091-aed638af-f033-403a-
  
  6. Read-aloud: Keeping user-accessibility in mind, we have a read-aloud feature which currently features two languages, English and Hindi, although more languages can be integrated. This feature reads aloud the content displayed on the users' screen. It really is helpful to any user with some kind of visual impairment and helps them navigate through the site.
  
- 7. Admin panel: There's an additional site to manage 
- 
- 
-
-
-
+ 7. Admin panel: There's an additional site to manage all the user interaction. An admin can manage and view all the applications and feedbacks from the user and act on them accordingly.
 
 ## How does this site act as an improvement to the previous one?
-_TBD_
+There are two crucial things we kept in mind while planning all of the former:
+How to make the site much more accessible to the users?
+How to increase the effectiveness of the site?
+Getting to the first point first and blatantly quoting a Marvel quote from another universe ”With Great UX comes great Users”. Hence, user experience is the very first thing that we focused on. 
+The tactics such as having an Omni - present navbar, with routes embedded to take users to the desired content would check that a user does not need to scroll through the website endlessly to find the exact content that they want as was the case with the existing website. Also, we are highly focusing on declustering and organizing the entire website so that to give it a neat look. These two points themselves will act as a boon to the existing UX. 
+Apart from these, we have features like Chatbot, AR model, read-aloud feature, maps, speech-recognition. As it is an Indian government website, we take great pride in our country’s diversity and hence we made the site multi-lingual.
+These are some of the promises we made in our short-listing presentation and we still stand strongly by them.
+
 
